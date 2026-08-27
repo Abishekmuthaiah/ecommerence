@@ -1,0 +1,6 @@
+-- Sample Initial Data for product_db
+INSERT INTO products (name, description, price, category, stock, image_url, rating, num_reviews) VALUES
+('HP Pavilion 15 Gaming Laptop', 'Intel Core i7 13th Gen, 16GB DDR5 RAM, 1TB NVMe SSD, NVIDIA RTX 4060 8GB Graphics, 144Hz FHD IPS Display.', 55000.0, 'Electronics', 15, 'https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=800&q=80', 4.8, 42),
+('Logitech MX Master 3S Wireless Mouse', 'Quiet clicks, 8K DPI any-surface tracking, MagSpeed electromagnetic scrolling, Bluetooth & Bolt receiver.', 800.0, 'Accessories', 35, 'https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=800&q=80', 4.9, 128),
+('Samsung Galaxy S24 Ultra 5G', '200MP Quad Camera with AI Nightography, Snapdragon 8 Gen 3 Processor, Dynamic AMOLED 2X 120Hz Display.', 25000.0, 'Electronics', 20, 'https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&w=800&q=80', 4.7, 85),
+('Sony WH-1000XM5 Noise-Canceling Headphones', 'Industry-leading active noise cancellation with 8 microphones, 30-hour battery life, speak-to-chat technology.', 1500.0, 'Audio', 25, 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80', 4.9, 210);

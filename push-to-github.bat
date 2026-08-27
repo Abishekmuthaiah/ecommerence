@@ -9,7 +9,7 @@ echo 1. Checking git status...
 git status
 echo.
 echo 2. Pushing main branch to origin...
-git push -u origin main
+git push -u origin main --force
 echo.
 echo ======================================================================
 if %ERRORLEVEL% EQU 0 (
